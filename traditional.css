@@ -1,0 +1,67 @@
+body {
+	font-size: 12pt;
+	border-width 0pt;
+}
+
+header {
+	font-size: 20pt;
+	text-align: center;
+	margin-bottom: 20pt;
+}
+
+h1 {
+	font-size: 18pt;
+	font-style: italic;
+	margin-bottom: 0pt;
+}
+
+section > h1
+{
+	font-size: 16pt;
+	margin-bottom: 8pt;
+	background-color: #D3D3D3;
+	border-left-style: solid;
+	border-left: 12pt;
+	border-left-color: #A9A9A9; 
+}
+
+section.course > h1
+{
+	font-size: 14pt;
+	font-color: black;
+	font-style: normal;
+	margin: 0pt;
+	background-color: white;
+}
+
+h2 {
+	background-color: #CBB677;
+	font-size: 14pt;
+	margin-top: 0pt;
+}
+
+section > h2 {
+	font-color: black;
+	font-size: 12pt;
+	margin-bottom: 8pt;
+}
+
+a:link
+ {
+	color: #450084
+	background-color: white;
+	text-style: normal;
+}
+
+a:hover {
+	color: white;
+	background-color: #450084;
+}
+
+footer {
+	text-align: center;
+	font-size: 10pt;
+	font-style: italic;
+}
+
+

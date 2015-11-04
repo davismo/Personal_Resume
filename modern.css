@@ -1,0 +1,81 @@
+body 
+{
+	font-family: sans-serif;
+	font-size: 12pt;
+	border: 0pt;
+}
+
+header 
+{
+	text-align: center;
+	font-size: 20pt;
+	margin-bottom: 30pt;
+}
+
+h1 
+{
+	font-size: 18pt;
+	font-style: italic;
+	margin-bottom: 0pt;
+}
+
+section > h1 
+{
+	font-size: 18pt;
+	color: #450084;
+	margin-bottom: 12pt;
+	border-bottom-width: 3px;
+	border-bottom: solid;
+	border-color: #450084
+}
+
+section.course > h1 
+{
+	font-size: 14pt;
+	font-variant: small-caps;
+	font-style: normal;
+	color: black;
+	border-style: none;
+	display: inline;
+}
+
+h2 
+{
+	color: black;
+	font-size: 16pt;
+	margin-top: 0pt;
+}
+
+section > h2 
+{
+	font-size: 14pt;
+	font-weight: bold;
+	margin-bottom: 6pt;
+}
+
+a:link 
+{
+	color: #CBB677
+	background: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	background: #CBB677;
+}
+
+img 
+{
+	float: right;
+	border-color: white;
+	border-style: solid;
+	border-width: 12px;
+}
+
+footer 
+{
+	text-align: left;
+	font-size: 10pt;
+	font-style: italic;
+}
