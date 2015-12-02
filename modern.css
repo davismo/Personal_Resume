@@ -1,81 +1,112 @@
-body 
-{
-	font-family: sans-serif;
+body {
+	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
-	border: 0pt;
+	background: #990000;
 }
 
-header 
-{
+h1 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 16px;
+	font-style: italic;
+}
+
+header {
 	text-align: center;
-	font-size: 20pt;
 	margin-bottom: 30pt;
 }
 
-h1 
-{
-	font-size: 18pt;
-	font-style: italic;
-	margin-bottom: 0pt;
+header h1 {
+	font-size: 30px;
+	
 }
 
-section > h1 
-{
-	font-size: 18pt;
-	color: #450084;
-	margin-bottom: 12pt;
-	border-bottom-width: 3px;
-	border-bottom: solid;
-	border-color: #450084
+header h2 {
+	font-size: 18px;
+	background-color: gray;
+	
 }
 
-section.course > h1 
-{
-	font-size: 14pt;
-	font-variant: small-caps;
-	font-style: normal;
-	color: black;
-	border-style: none;
-	display: inline;
+img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border: 3px solid #cccccc;
+	text-align: center;
+	margin-bottom: 10px;
 }
 
-h2 
-{
-	color: black;
-	font-size: 16pt;
-	margin-top: 0pt;
-}
-
-section > h2 
-{
-	font-size: 14pt;
-	font-weight: bold;
-	margin-bottom: 6pt;
-}
-
-a:link 
-{
-	color: #CBB677
-	background: white;
+a {
+	color: gray;
 	text-decoration: none;
+
 }
 
 a:hover {
-	color: white;
-	background: #CBB677;
+	color: #cc0000;
+	text-decoration: none;
+
 }
 
-img 
-{
+.list-inline {
+	padding-left: 0;
+	padding-bottom: 2px;
+}
+
+.list-inline li {
+	display: inline-block;
+	width: 30%;
+}
+
+.list-inline li i{
+  font-size: 25px;
+}	
+
+#overview {
+	background: white;
+	border-radius: 4px;
+	border: 3px solid #cccccc;
+	padding: 10px;
+}
+
+#left-container {
+	background: white;
+	float: left;
+	width: 40%;
+	height: 20%;
+	border-radius: 4px;
+	border: 3px solid #cccccc;
+	margin: 10px;
+}
+
+#right-container {
+	background: white;
 	float: right;
-	border-color: white;
-	border-style: solid;
-	border-width: 12px;
+	width: 50%;
+	border-radius: 4px;
+	border: 3px solid #cccccc;
+	margin: 10px;
 }
 
-footer 
-{
-	text-align: left;
-	font-size: 10pt;
-	font-style: italic;
+#wrapper {
+	border: 3px solid black;
+	border-radius: 10px;
+	width: 1000px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #edece2;
+
 }
+
+footer {
+	background: white;
+	border: 3px solid #cccccc;
+	position: relative;
+	padding: 10px 400px 60px 20px;
+	clear: both;
+}
+
+
